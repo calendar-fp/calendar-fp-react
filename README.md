@@ -6,6 +6,8 @@
 
 - Style agnostic
 - Minimalistic
+- Compund components
+- Uses date-fns library
 
 ## Usage
 
