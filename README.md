@@ -60,16 +60,16 @@ const App = () => {
   }
 
   return (
-        <Calendar
+    <Calendar
         currentMonth={new Date(2022, 0, 1)}
         onMonthChange={date => {
             console.info('month changed', date)
         }}
-        >
+    >
         <CalendarNavigation render={navRenderer} />
         <CalendarDays render={daysRenderer} />
         <CalendarDates render={datesRenderer} />
-        </Calendar>
+    </Calendar>
   );
 }
 
